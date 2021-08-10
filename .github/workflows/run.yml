@@ -50,5 +50,5 @@ jobs:
         fi
         for ((i=0;i<$user_num;i++))
         do
-        python3 checkin.py --username ${user_list[$i]} --password ${pwd_list[$i]}
+        python3 C189Checkin.py --username ${user_list[$i]} --password ${pwd_list[$i]}
         done
